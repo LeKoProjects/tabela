@@ -3,7 +3,7 @@
     
 <head>
     <!-- Site Title-->
-    <title>Melhores Atacantes</title>
+    <title>Melhor Goleiro</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -18,27 +18,22 @@
                     <thead class="table-dark">
                         <tr>
                             <th>#</th>
-                            <th>GOLEIROS</th>
-                            <th>PAÍS</th>
-                            <th>TIME</th>
+                            <th colspan="1">Nome</th>
+                            <th>Nacionalidade</th>
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($rows as $index => $row)
-                            @if ($index > 1) <!-- Alterado para pular a primeira linha de dados -->
-                            <tr>
-                                <td>{{ $index - 1 }}</td> <!-- Ajustado para manter a numeração correta começando de 1 -->
-                                <td>
-                                    {{ $row[1] }} <!-- Nome do goleiro -->
-                                </td>
-                                <td>
-                                    {{ $row[2] }} <!-- Supondo que o índice 2 seja o nome do país -->
-                                </td>
-                                <td>
-                                    {{ $row[3] }} <!-- Supondo que o índice 3 seja o nome do time -->
-                                </td>
-                            </tr>
-                            @endif
+                        @foreach ($data as $index => $row)
+                        @if ($index != 0 and $index != 1) <!-- Excluir a primeira linha -->
+                        <tr>
+                            <!-- Exibir apenas as colunas desejadas -->
+                            <td>{{ $index - 1 }}</td>
+                            <!-- Nome do time -->
+                            <td>{{ $row['nome'] }}</td>
+                            <!-- Colunas de interesse -->
+                            <td>{{ $row['pais']  }}</td> <!-- Gols -->
+                        </tr>
+                        @endif
                         @endforeach
                     </tbody>
                 </table>

@@ -18,4 +18,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+<<<<<<< HEAD
 Route::get('/', [TabelaController::class, 'atualizar']);
+=======
+Route::get('/', [TabelaController::class, 'atualizar']);
+>>>>>>> c46d5d5e88586c1c7d50b3ae0b67a29b3674f847

@@ -29,15 +29,23 @@ class TabelaController extends Controller
         // Percorre as linhas do arquivo Excel
         for ($row = 1; $row <= $lastRow; $row++) {
             // Obtém os valores das células
+<<<<<<< HEAD
             $cellAValue = $sheet->getCell('L' . $row)->getValue();
             $cellBValue = $sheet->getCell('N' . $row)->getValue();
             $cellCValue = $sheet->getCell('P' . $row)->getValue();
+=======
+            $cellAValue = $sheet->getCell('AB' . $row)->getValue();
+            $cellBValue = $sheet->getCell('AD' . $row)->getValue();
+>>>>>>> c46d5d5e88586c1c7d50b3ae0b67a29b3674f847
 
             // Adiciona os valores ao array
             $data[] = [
                 'nome' => $cellAValue,
                 'pais' => $cellBValue,
+<<<<<<< HEAD
                 'ano' => $cellCValue,
+=======
+>>>>>>> c46d5d5e88586c1c7d50b3ae0b67a29b3674f847
             ];
         }
 

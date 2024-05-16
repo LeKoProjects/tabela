@@ -3,11 +3,9 @@
     
 <head>
     <!-- Site Title-->
-<<<<<<< HEAD
+
     <title>Melhor Lateral</title>
-=======
     <title>Melhor Goleiro</title>
->>>>>>> c46d5d5e88586c1c7d50b3ae0b67a29b3674f847
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -24,10 +22,7 @@
                             <th>#</th>
                             <th colspan="1">Nome</th>
                             <th>Nacionalidade</th>
-<<<<<<< HEAD
                             <th>Time</th>
-=======
->>>>>>> c46d5d5e88586c1c7d50b3ae0b67a29b3674f847
                         </tr>
                     </thead>
                     <tbody>
@@ -40,10 +35,7 @@
                             <td>{{ $row['nome'] }}</td>
                             <!-- Colunas de interesse -->
                             <td>{{ $row['pais']  }}</td> <!-- Gols -->
-<<<<<<< HEAD
                             <td>{{ $row['ano']  }}</td> <!-- Gols -->
-=======
->>>>>>> c46d5d5e88586c1c7d50b3ae0b67a29b3674f847
                         </tr>
                         @endif
                         @endforeach

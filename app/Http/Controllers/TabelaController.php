@@ -32,8 +32,6 @@ class TabelaController extends Controller
             $cellAValue = $sheet->getCell('L' . $row)->getValue();
             $cellBValue = $sheet->getCell('N' . $row)->getValue();
             $cellCValue = $sheet->getCell('P' . $row)->getValue();
-            $cellAValue = $sheet->getCell('AB' . $row)->getValue();
-            $cellBValue = $sheet->getCell('AD' . $row)->getValue();
 
             // Adiciona os valores ao array
             $data[] = [

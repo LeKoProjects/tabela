@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Melhores Jogadores de Todos os Tempos</title>
+    <title>Melhores Laterais de Todos os Tempos</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
 
@@ -60,7 +60,7 @@
 <main class="container">
   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
     <div class="col-lg-12 px-0" style="text-align: center">
-      <h1 class="display-6 fst-italic">Melhores Jogadores de Todos os Tempos</h1>
+      <h1 class="display-6 fst-italic">Melhores Laterais de Todos os Tempos</h1>
     </div>
   </div>
 
@@ -115,29 +115,26 @@
           <h4 class="fst-italic">Recent posts</h4>
           <ul class="list-unstyled">
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="http://maioresempresas.com/">
                 <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
                 <div class="col-lg-8">
-                  <h6 class="mb-0">Melhores Empresas</h6>
-                  <small class="text-body-secondary">January 15, 2024</small>
+                  <h6 class="mb-0">Maiores Empresas</h6>
                 </div>
               </a>
             </li>
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://maiorjogador.com/">
                 <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
                 <div class="col-lg-8">
                   <h6 class="mb-0">Melhores Jogadores</h6>
-                  <small class="text-body-secondary">January 14, 2024</small>
                 </div>
               </a>
             </li>
             <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://tabelabrasileiro.com/">
                 <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
                 <div class="col-lg-8">
                   <h6 class="mb-0">Tabela Brasileirão</h6>
-                  <small class="text-body-secondary">January 13, 2024</small>
                 </div>
               </a>
             </li>

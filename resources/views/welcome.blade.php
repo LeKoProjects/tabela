@@ -8,7 +8,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
     <title>Melhores Laterais de Todos os Tempos</title>
-
+    <link rel="icon" href="images/icone.png" type="icone.png/x-icon">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
 
     
